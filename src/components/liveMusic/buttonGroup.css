@@ -1,0 +1,10 @@
+/* ButtonGroup.css */
+.carousel-button-group button {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .carousel-button-group button:hover {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  

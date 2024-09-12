@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    
+   box-sizing: border-box;
+   
+}
+.custom-scroll {
+   overflow-y: scroll;
+   scrollbar-width: none; /* Firefox */
+   -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.custom-scroll::-webkit-scrollbar {
+   display: none; /* Safari and Chrome */
+}
+
+
+ 
